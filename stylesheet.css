@@ -46,7 +46,7 @@ input{
     height: 20%;
     margin-top: 1%;
 }
-button{
+#addNoteBtn{
     background-color: #008CBA; 
   border: none;
   color: white;
@@ -58,7 +58,17 @@ button{
   margin-top: 1%;
   transition-duration: 0.4s
 }
-button:hover{
+#addNoteBtn:hover{
     background-color: white; 
     color: #008CBA;
+}
+.noteBox{
+    display: flex;
+    background-color: white;
+    height: 25%;
+    margin-bottom: 1%;
+    justify-content: space-between;
+}
+p{
+    margin-top: 1%;
 }
